@@ -24,7 +24,8 @@ function item() {
   listItem.append(deleteBtn);
 
   function deleteItem() {
-    listItem.addClass('delete');
+    // listItem.addClass('delete');
+    listItem.remove();
   }
 
   deleteBtn.on('click', deleteItem);
